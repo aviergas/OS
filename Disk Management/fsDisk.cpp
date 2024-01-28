@@ -88,7 +88,7 @@ void fsDisk::listAll() {
         }
     }
 
-    char bufy; // I CHANGE FROM CHAR BUFY TO CHAR ARRAY BUFY .. DONT KNOW IF ITS ALLRIGHT .
+    char bufy;
     cout<< "Disk content: ";
     for(i= 0 ; i < DISK_SIZE ; i++){
         cout<< "(";
